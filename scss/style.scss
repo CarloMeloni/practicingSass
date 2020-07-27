@@ -28,6 +28,10 @@ img {
     width: 100%;
 }
 
+
+
+
+
 //NAVBAR
 .navbar {
     display: flex;
@@ -54,4 +58,30 @@ img {
         color:$primary-color;
     }
 }
+
+
+
+
+
+//LANDING
+.landing {
+    position: relative;
+    background: url('../../dist/img/Baggio.jpg') no-repeat center center/cover;
+    height: 100vh;
+
+    &-inner {
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+
 
